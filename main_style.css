@@ -1,0 +1,172 @@
+body {
+    background-color: #191919;
+    text-align: center;
+}
+
+.bg-lblack {
+    background-color: #212121;
+}
+
+.bg-gray {
+    background-color: rgb(57, 57, 57);
+}
+
+.bg-light-gray {
+    background-color: rgb(78, 78, 78);
+}
+
+.container {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.input-panel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: red;
+}
+
+
+.wordbox {
+    border: 2px solid rgb(78, 78, 78);
+    display: flex;
+    height: 4.5rem;
+    width: 4.5rem;
+    padding: 0.4em 0.4em 0.5em 0.4em;
+    margin: 0.1em;
+    color: white;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.key-row {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.key {
+    font-size: 1.6em;
+    text-align: center;
+    border: 1px solid rgb(46, 46, 46);
+    background-color: rgb(78, 78, 78);
+    border-radius: 15%;
+    padding: 0.3em;
+    width: 1.8em;
+    height: 2.3em;
+    margin: 0.05em;
+    color: white;
+    transition: 0.2s;
+}
+
+.key:hover {
+    background-color: rgb(57, 57, 57);
+
+}
+
+.key:active {
+    scale: 1.2;
+}
+
+
+
+
+@media only screen and (max-width: 1400px) {
+    .wordbox {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .container {
+        margin-top: 4em;
+        margin-bottom: 2em;
+
+    }
+
+    .key-row {
+        margin-bottom: 0.5em;
+    }
+
+    .key {
+        font-size: 1.3em;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .wordbox {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .container {
+        margin-top: 4em;
+        margin-bottom: 2em;
+    }
+
+    .key-row {
+        margin-bottom: 0.45em;
+    }
+
+    .key {
+        font-size: 1.3em;
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+
+    .wordbox {
+        height: 3.3rem;
+        width: 3.3rem;
+    }
+
+    .container {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    .key-row {
+        margin-bottom: 0.2em;
+    }
+
+    .key {
+        font-size: 1.02em;
+    }
+}
+
+@media only screen and (max-width:350px) {
+
+    .wordbox {
+        height: 2.4rem;
+        width: 2.4rem;
+    }
+
+    .container {
+        margin-top: 1.4em;
+        margin-bottom: 0.8em;
+    }
+
+    .key-row {
+        margin-bottom: 0.2em;
+    }
+
+    .key {
+        font-size: 0.8em;
+    }
+}
