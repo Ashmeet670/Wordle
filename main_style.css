@@ -94,6 +94,26 @@ body {
     color: rgb(49, 197, 49);
 }
 
+.enter-yellow{
+    background-color: rgb(193, 168, 59);
+    border: none;
+
+}
+
+
+.enter-green{
+    background-color: rgb(83, 141, 78);
+    border: none;
+
+}
+
+.enter-gray{
+    background-color: rgb(63, 63, 68);
+    border: none;
+
+}
+
+
 @media only screen and (max-width: 1400px) {
     .wordbox {
         height: 4rem;
