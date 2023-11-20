@@ -41,7 +41,7 @@ body {
     padding: 0.4em 0.4em 0.5em 0.4em;
     margin: 0.1em;
     color: white;
-    font-size: 2rem;
+    font-size: 2em;
     justify-content: center;
     align-items: center;
 }
@@ -134,6 +134,8 @@ body {
     .wordbox {
         height: 3.3rem;
         width: 3.3rem;
+        font-size: 1.5em;
+
     }
 
     .container {
@@ -155,6 +157,8 @@ body {
     .wordbox {
         height: 2.4rem;
         width: 2.4rem;
+        font-size: 1em;
+
     }
 
     .container {
