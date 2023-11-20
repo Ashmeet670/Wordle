@@ -1,3 +1,5 @@
+let realWord = "abcde"
+
 let word = ""
 let guess = 1
 let character = 1
@@ -187,29 +189,73 @@ const keys = {
         };
     },
     "Backspace": () => {
-        if(character >1){
+        if (character > 1) {
             character -= 1
-            word = word.slice(0,-1)
-            document.getElementById("guess-"+guess+ "-"+character).innerHTML = " "
+            word = word.slice(0, -1)
+            document.getElementById("guess-" + guess + "-" + character).innerHTML = " "
 
-    
+
         }
-        
+
+    },
+    "Enter": () => {
+        console.log("enter")
+        if (character == 6) {
+
+
+            realWordArr = Array.from(realWord)
+            guessWordArr = Array.from(word)
+
+            console.log(realWordArr)
+            console.log(guessWordArr)
+
+            if (realWord === word) {
+                for (i = 0; i <= 4; i++) {
+                    document.getElementById("guess-" + guess + "-" + (i + 1)).classList.add("enter-green")
+                }
+            }
+            else {
+
+                for (i = 0; i <= 4; i++) {
+
+
+                    if(!realWordArr.includes(guessWordArr[i])){
+                        document.getElementById("guess-" + guess + "-" + (i + 1)).classList.add("enter-gray")
+
+                    }
+                    if(realWordArr.includes(guessWordArr[i])){
+                        document.getElementById("guess-" + guess + "-" + (i + 1)).classList.add("enter-yellow")
+
+                    }
+                    if (realWordArr[i] == guessWordArr[i]) {
+                        console.log(i + 1)
+                        document.getElementById("guess-" + guess + "-" + (i + 1)).classList.add("enter-green")
+                    }
+                }
+
+                
+                guess+=1
+                character=1
+                word = ""
+
+            }
+
+
+        }
     },
 
+
 }
+
 
 
 
 document.addEventListener('keydown', logKey);
 function logKey(e) {
-
-
     keys[e.code]()
-
-
-    
 }
+
+
 
 
 
