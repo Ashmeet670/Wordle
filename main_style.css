@@ -44,6 +44,8 @@ body {
     font-size: 2em;
     justify-content: center;
     align-items: center;
+    transition: 0.2s;
+
 }
 
 .keyboard {
@@ -83,7 +85,14 @@ body {
 }
 
 
+.cross{
+    color: rgb(255, 65, 65);
 
+}
+
+.enter{
+    color: rgb(49, 197, 49);
+}
 
 @media only screen and (max-width: 1400px) {
     .wordbox {
