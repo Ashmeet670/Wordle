@@ -183,7 +183,6 @@ const keys = {
     "KeyZ": () => {
         if (character <= 5) {
             word += "z";
-            console.log(word)
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "Z"
             character += 1
         };
@@ -206,9 +205,6 @@ const keys = {
             realWordArr = Array.from(realWord)
             guessWordArr = Array.from(word)
 
-            console.log(realWordArr)
-            console.log(guessWordArr)
-
             if (realWord === word) {
                 for (i = 0; i <= 4; i++) {
                     document.getElementById("guess-" + guess + "-" + (i + 1)).classList.add("enter-green")
@@ -219,11 +215,11 @@ const keys = {
                 for (i = 0; i <= 4; i++) {
 
 
-                    if(!realWordArr.includes(guessWordArr[i])){
+                    if (!realWordArr.includes(guessWordArr[i])) {
                         document.getElementById("guess-" + guess + "-" + (i + 1)).classList.add("enter-gray")
 
                     }
-                    if(realWordArr.includes(guessWordArr[i])){
+                    if (realWordArr.includes(guessWordArr[i])) {
                         document.getElementById("guess-" + guess + "-" + (i + 1)).classList.add("enter-yellow")
 
                     }
@@ -233,9 +229,9 @@ const keys = {
                     }
                 }
 
-                
-                guess+=1
-                character=1
+
+                guess += 1
+                character = 1
                 word = ""
 
             }
@@ -246,7 +242,6 @@ const keys = {
 
 
 }
-
 
 
 
