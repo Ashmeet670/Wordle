@@ -4,6 +4,12 @@ let word = ""
 let guess = 1
 let character = 1
 
+let winBox = document.getElementById("win-box")
+let backgroundBlur = document.getElementById("win-blur")
+
+
+
+
 const keys = {
     "KeyA": () => {
         if (character <= 5) {
@@ -209,6 +215,10 @@ const keys = {
                 for (i = 0; i <= 4; i++) {
                     document.getElementById("guess-" + guess + "-" + (i + 1)).classList.add("enter-green")
                 }
+
+                setTimeout(() => {
+                    win()
+                  }, 1000);
             }
             else {
 
@@ -248,6 +258,12 @@ const keys = {
 document.addEventListener('keydown', logKey);
 function logKey(e) {
     keys[e.code]()
+}
+
+
+function win(){
+    winBox.classList.remove("d-none")
+    backgroundBlur.classList.add("opactiy-20","blur")
 }
 
 
