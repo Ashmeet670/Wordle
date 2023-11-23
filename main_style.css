@@ -127,6 +127,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 200;
+
+}
+
+.win-bg{
+    background-color: rgb(16, 133, 162);
 }
 
 .blur{
@@ -134,7 +139,7 @@ body {
 }
 
 .play-again{
-    background-color: blue;
+    background-color: rgb(9, 152, 185);
     color: black ;
     border: none;
     transition: 0.2s;
