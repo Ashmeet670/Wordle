@@ -8,6 +8,7 @@ let winBox = document.getElementById("win-box")
 let backgroundBlur = document.getElementById("win-blur")
 
 
+let wordBoxes = document.querySelectorAll(".wordbox")
 
 
 const keys = {
@@ -265,6 +266,21 @@ function win(){
     winBox.classList.remove("d-none")
     backgroundBlur.classList.add("opactiy-20","blur")
 }
+
+function playAgain(){
+    winBox.classList.add("d-none")
+    backgroundBlur.classList.remove("opactiy-20","blur")
+    guess = 1
+    character = 1
+    word = ""
+
+    wordBoxes.forEach(box=>{
+        box.innerHTML = "&nbsp"
+        box.classList = "wordbox"
+    })
+
+}
+
 
 
 
