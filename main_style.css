@@ -48,6 +48,11 @@ body {
 
 }
 
+.wordIn {
+    border: 2px solid rgb(116, 116, 116);
+
+}
+
 .keyboard {
     display: flex;
     align-items: flex-start;
@@ -116,7 +121,7 @@ body {
 
 
 
-.opacity-20{
+.opacity-20 {
     opacity: 20%;
 }
 
@@ -130,24 +135,26 @@ body {
 
 }
 
-.win-bg{
+.win-bg {
     background-color: rgb(16, 133, 162);
 }
 
-.blur{
+.blur {
     filter: blur(2px);
 }
 
-.play-again{
+.play-again {
     background-color: rgb(9, 152, 185);
-    color: black ;
+    color: black;
     border: none;
     transition: 0.2s;
 }
 
-.play-again:hover{
+.play-again:hover {
     scale: 1.1;
 }
+
+
 
 
 @media only screen and (max-width: 1400px) {
