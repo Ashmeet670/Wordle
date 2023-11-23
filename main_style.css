@@ -85,32 +85,63 @@ body {
 }
 
 
-.cross{
+
+.cross {
     color: rgb(255, 65, 65);
 
 }
 
-.enter{
+.enter {
     color: rgb(49, 197, 49);
 }
 
-.enter-yellow{
+.enter-yellow {
     background-color: rgb(193, 168, 59);
     border: none;
 
 }
 
 
-.enter-green{
+.enter-green {
     background-color: rgb(83, 141, 78);
     border: none;
 
 }
 
-.enter-gray{
+.enter-gray {
     background-color: rgb(63, 63, 68);
     border: none;
 
+}
+
+
+
+.opacity-20{
+    opacity: 20%;
+}
+
+.d-win {
+
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+}
+
+.blur{
+    filter: blur(2px);
+}
+
+.play-again{
+    background-color: blue;
+    color: black ;
+    border: none;
+    transition: 0.2s;
+}
+
+.play-again:hover{
+    scale: 1.1;
 }
 
 
