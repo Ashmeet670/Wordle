@@ -271,7 +271,7 @@ const keys = {
 
                 setTimeout(() => {
                     win()
-                  }, 1000);
+                }, 1000);
             }
             else {
 
@@ -314,19 +314,19 @@ function logKey(e) {
 }
 
 
-function win(){
+function win() {
     winBox.classList.remove("d-none")
-    backgroundBlur.classList.add("opactiy-20","blur")
+    backgroundBlur.classList.add("opactiy-20", "blur")
 }
 
-function playAgain(){
+function playAgain() {
     winBox.classList.add("d-none")
-    backgroundBlur.classList.remove("opactiy-20","blur")
+    backgroundBlur.classList.remove("opactiy-20", "blur")
     guess = 1
     character = 1
     word = ""
 
-    wordBoxes.forEach(box=>{
+    wordBoxes.forEach(box => {
         box.innerHTML = "&nbsp"
         box.classList = "wordbox"
     })
