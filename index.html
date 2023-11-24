@@ -45,6 +45,30 @@
             </div>
         </div>
 
+        <div  id="loose-box" class="container d-win d-none">
+            <div class="row justify-content-center">
+                <div class="col-11 col-lg-10 col-xl-6 win-bg rounded-4 py-5">
+
+                    <!-- win title -->
+                    <div class="py-3 mb-3 fs-1">
+                        You ran out of guesses!
+                    </div>
+
+                    <div class="py-2 mb-3 fs-4">
+                        The correct word was:  <span id="correctWord" class="fs-3"></span> <br> Winstreak:
+                        <span id="winstreak">2</span>
+                    </div>
+
+                    <div class="py-3 mb-4">
+
+                        <button class="px-3 py-2 rounded-5 fs-5 play-again" onclick="playAgain()">Play Again</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
         <section id="win-blur" class="">
             <div class="bg-lblack text-center p-3">
                 <h1 class="text-primary fs-1 ">Wordle<sup class="fs-5"> Infinite</sup></h1>
