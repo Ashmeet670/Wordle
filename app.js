@@ -3,11 +3,25 @@ let realWord = "abcde"
 let word = ""
 let guess = 1
 let character = 1
+let winsteak = 0
 
-let winBox = document.getElementById("win-box")
 let backgroundBlur = document.getElementById("win-blur")
 
 
+// boxes
+let looseBox = document.getElementById("loose-box")
+let winBox = document.getElementById("win-box")
+
+// tries and correct word text
+let correctWordLooseBox = document.getElementById("correctWord")
+let triesWinBox = document.getElementById("tries")
+
+// winstreak text
+let winstreakTextWinBox = document.getElementById("winstreakWin")
+let winstreakTextLooseBox = document.getElementById("winstreakLoose")
+
+
+// dislay boxes for words
 let wordBoxes = document.querySelectorAll(".wordbox")
 
 
@@ -273,7 +287,7 @@ const keys = {
                     win()
                 }, 1000);
             }
-            else {
+            else if (realWord != word && guess < 6) {
 
                 for (i = 0; i <= 4; i++) {
 
@@ -298,6 +312,9 @@ const keys = {
                 word = ""
 
             }
+            if (guess >= 6){
+                loose()
+            }
 
 
         }
@@ -317,9 +334,22 @@ function logKey(e) {
 function win() {
     winBox.classList.remove("d-none")
     backgroundBlur.classList.add("opactiy-20", "blur")
+    winsteak += 1
+    winstreakTextWinBox.innerHTML = winsteak
+    triesWinBox.innerHTML = guess
+}
+
+function loose() {
+    looseBox.classList.remove("d-none")
+    backgroundBlur.classList.add("opactiy-20", "blur")
+    winsteak = 0
+    winstreakTextLooseBox.innerHTML = winsteak 
+
 }
 
 function playAgain() {
+
+    looseBox.classList.add("d-none")
     winBox.classList.add("d-none")
     backgroundBlur.classList.remove("opactiy-20", "blur")
     guess = 1
