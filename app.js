@@ -327,7 +327,7 @@ const keys = {
 
 
         }
-        else{
+        else if(character == 6){
             document.getElementById("row-"+guess).classList.add("move-left-right")
             setTimeout(() => {
                 document.getElementById("row-"+guess).classList.remove("move-left-right")
