@@ -327,6 +327,13 @@ const keys = {
 
 
         }
+        else{
+            document.getElementById("row-"+guess).classList.add("move-left-right")
+            setTimeout(() => {
+                document.getElementById("row-"+guess).classList.remove("move-left-right")
+
+            }, 400);
+        }
     },
 
 
