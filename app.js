@@ -41,7 +41,7 @@ const keys = {
         if (character <= 5) {
             word += "a";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "A"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
             character += 1
         };
     },
@@ -49,7 +49,7 @@ const keys = {
         if (character <= 5) {
             word += "b";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "B"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -58,7 +58,7 @@ const keys = {
         if (character <= 5) {
             word += "c";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "C"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -67,7 +67,7 @@ const keys = {
         if (character <= 5) {
             word += "d";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "D"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -76,7 +76,7 @@ const keys = {
         if (character <= 5) {
             word += "e";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "E"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -85,7 +85,7 @@ const keys = {
         if (character <= 5) {
             word += "f";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "F"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
             character += 1
         };
     },
@@ -93,7 +93,7 @@ const keys = {
         if (character <= 5) {
             word += "g";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "G"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -102,7 +102,7 @@ const keys = {
         if (character <= 5) {
             word += "h";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "H"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -111,7 +111,7 @@ const keys = {
         if (character <= 5) {
             word += "i";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "I"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -120,7 +120,7 @@ const keys = {
         if (character <= 5) {
             word += "j";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "J"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -129,7 +129,7 @@ const keys = {
         if (character <= 5) {
             word += "k";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "K"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -138,7 +138,7 @@ const keys = {
         if (character <= 5) {
             word += "l";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "L"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -147,7 +147,7 @@ const keys = {
         if (character <= 5) {
             word += "m";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "M"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -156,7 +156,7 @@ const keys = {
         if (character <= 5) {
             word += "n";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "N"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -165,7 +165,7 @@ const keys = {
         if (character <= 5) {
             word += "o";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "O"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -174,7 +174,7 @@ const keys = {
         if (character <= 5) {
             word += "p";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "P"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -183,7 +183,7 @@ const keys = {
         if (character <= 5) {
             word += "q";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "Q"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -192,7 +192,7 @@ const keys = {
         if (character <= 5) {
             word += "r";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "R"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -201,7 +201,7 @@ const keys = {
         if (character <= 5) {
             word += "s";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "S"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -210,7 +210,7 @@ const keys = {
         if (character <= 5) {
             word += "t";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "T"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -219,7 +219,7 @@ const keys = {
         if (character <= 5) {
             word += "u";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "U"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -228,7 +228,7 @@ const keys = {
         if (character <= 5) {
             word += "v";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "V"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -237,7 +237,7 @@ const keys = {
         if (character <= 5) {
             word += "w";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "W"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -246,7 +246,7 @@ const keys = {
         if (character <= 5) {
             word += "x";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "X"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -255,7 +255,7 @@ const keys = {
         if (character <= 5) {
             word += "y";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "Y"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small")
 
             character += 1
         };
@@ -264,7 +264,7 @@ const keys = {
         if (character <= 5) {
             word += "z";
             document.getElementById("guess-" + guess + "-" + character).innerHTML = "Z"
-            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn","box-big-small","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.add("wordIn", "box-big-small", "box-big-small")
 
             character += 1
         };
@@ -274,7 +274,7 @@ const keys = {
             character -= 1
             word = word.slice(0, -1)
             document.getElementById("guess-" + guess + "-" + character).innerHTML = " "
-            document.getElementById("guess-" + guess + "-" + character).classList.remove("wordIn","box-big-small","box-big-small")
+            document.getElementById("guess-" + guess + "-" + character).classList.remove("wordIn", "box-big-small", "box-big-small")
 
 
 
@@ -354,6 +354,7 @@ document.addEventListener('keydown', logKey);
 function logKey(e) {
     keys[e.code]()
 }
+
 
 
 function win() {
