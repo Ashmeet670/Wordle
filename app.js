@@ -30,8 +30,9 @@ let winstreakTextWinBox = document.getElementById("winstreakWin")
 let winstreakTextLooseBox = document.getElementById("winstreakLoose")
 
 
-// dislay boxes for words
+//keys and wordboxes
 let wordBoxes = document.querySelectorAll(".wordbox")
+let keyBoxes = document.querySelectorAll(".key")
 
 
 
@@ -387,6 +388,10 @@ function playAgain() {
     wordBoxes.forEach(box => {
         box.innerHTML = "&nbsp"
         box.classList = "wordbox"
+    })
+
+    keyBoxes.forEach(key => {
+        key.classList = "key"
     })
 
 }
