@@ -70,8 +70,8 @@ body {
     font-size: 1.6em;
     text-align: center;
     border: 1px solid rgb(46, 46, 46);
-    background-color: rgb(78, 78, 78);
-    border-radius: 15%;
+    background-color: rgb(97, 97, 97);
+    border-radius: 10%;
     padding: 0.3em;
     width: 1.8em;
     height: 2.3em;
@@ -119,6 +119,21 @@ body {
 
 }
 
+.key-yellow {
+    background-color: rgb(193, 168, 59);
+    border: none;
+}
+
+.key-green {
+    background-color: rgb(83, 141, 78);
+    border: none;
+}
+
+.key-gray {
+    background-color: rgb(55, 55, 55);
+    border: none;
+}
+
 
 
 .opacity-20 {
@@ -154,6 +169,39 @@ body {
     scale: 1.1;
 }
 
+.box-big-small {
+    animation: box-big-small 0.2s ease 0s 1 forwards;
+}
+
+@keyframes box-big-small {
+    0% {
+
+        transform: scale(1);
+
+    }
+
+    20% {
+        transform: scale(0.95);
+
+    }
+
+    50% {
+        transform: scale(1.05);
+
+    }
+
+    80% {
+        transform: scale(0.95);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+    }
+}
+
+
 .move-left-right {
     animation: move-left-right 0.3s ease 0s 1 forwards;
 }
@@ -163,16 +211,18 @@ body {
 
         transform: translateX(0);
     }
-    20%{
+
+    20% {
         transform: translateX(-10px);
 
     }
-    50%{
+
+    50% {
         transform: translateX(15px);
 
     }
 
-    80%{
+    80% {
         transform: translateX(-10px);
 
     }
