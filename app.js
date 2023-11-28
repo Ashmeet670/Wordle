@@ -393,6 +393,10 @@ function playAgain() {
 
     keyBoxes.forEach(key => {
         key.classList = "key"
+        key.classList.add("col-1","py-2")
     })
+
+    document.getElementById("enter").classList.add("enter")
+    document.getElementById("backspace").classList.add("cross")
 
 }
