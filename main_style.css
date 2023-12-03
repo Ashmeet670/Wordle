@@ -80,10 +80,7 @@ body {
     transition: 0.2s;
 }
 
-.key:hover {
-    background-color: rgb(57, 57, 57);
 
-}
 
 .key:active {
     scale: 1.2;
@@ -236,6 +233,16 @@ body {
 
 
 
+@media only screen and (min-width: 614px) {
+
+    
+    .key:hover {
+        background-color: rgb(57, 57, 57);
+
+
+    }
+
+}
 
 @media only screen and (max-width: 576px) {
 
@@ -257,10 +264,7 @@ body {
         font-size: 1.6em;
 
     }
-    .key:hover {
-        background-color: rgb(97, 97, 97);
-
-    }
+    
 
 }
 
@@ -287,10 +291,7 @@ body {
 
     }
 
-    .key:hover {
-        background-color: rgb(97, 97, 97);
-
-    }
+   
 }
 
 @media only screen and (max-width:350px) {
@@ -316,8 +317,5 @@ body {
 
     }
 
-    .key:hover {
-        background-color: rgb(97, 97, 97);
-
-    }
+  
 }
