@@ -1,5 +1,5 @@
-import {possibleGuess} from "/words.js"
-import { possibleWords } from "/words.js"
+import {possibleGuess} from "./words.js"
+import { possibleWords } from "./words.js"
 
 
 let realWord = possibleWords[Math.floor(Math.random() * possibleWords.length)]
