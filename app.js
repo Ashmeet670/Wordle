@@ -284,8 +284,8 @@ const keys = {
             console.log("enterIn")
 
 
-            realWordArr = Array.from(realWord)
-            guessWordArr = Array.from(word)
+            let realWordArr = Array.from(realWord)
+            let guessWordArr = Array.from(word)
 
             if (realWord === word) {
                 for (i = 0; i <= 4; i++) {
@@ -352,6 +352,8 @@ function logKey(e) {
     keys[e.code]()
 }
 
+window.logKey = logKey
+
 
 
 function win() {
@@ -361,6 +363,8 @@ function win() {
     winstreakTextWinBox.innerHTML = winsteak
     triesWinBox.innerHTML = guess
 }
+window.win = win
+
 
 function loose() {
     looseBox.classList.remove("d-none")
@@ -370,6 +374,8 @@ function loose() {
     correctWordLooseBox.innerHTML = realWord.toUpperCase()
 
 }
+
+window.loose = loose
 
 function playAgain() {
 
@@ -398,6 +404,7 @@ function playAgain() {
 
 }
 
+window.playAgain = playAgain
 
 
 
