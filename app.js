@@ -346,6 +346,8 @@ const keys = {
 
 }
 
+window.keys = keys
+
 
 document.addEventListener('keydown', logKey);
 function logKey(e) {
