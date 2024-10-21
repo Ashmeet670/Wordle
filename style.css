@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+      font-family: "Poppins", sans-serif;
+}
+
 body {
     background-color: #191919;
     text-align: center;
@@ -143,12 +149,16 @@ body {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 200;
-
+    z-index: 2;
+    color: #e6e6e6
+    
+    ;
 }
 
 .win-bg {
-    background-color: rgb(16, 133, 162);
+    background-color: #3c3c3c;
+    box-shadow: 15px 15px 0px #2a2a2a;
+    backdrop-filter: blur(2px);
 }
 
 .blur {
@@ -156,8 +166,9 @@ body {
 }
 
 .play-again {
-    background-color: rgb(9, 152, 185);
-    color: black;
+    background-color: #636363;
+    box-shadow: 7px 7px 0px #2a2a2a;
+    color: #e6e6e6;
     border: none;
     transition: 0.2s;
 }
