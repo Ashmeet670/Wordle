@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-*{
-      font-family: "Poppins", sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
 
 body {
     background-color: #191919;
     text-align: center;
+    font-family: "Poppins", sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
+.title{
+    font-family: "Cabin Sketch", sans-serif;
+}
 
 .bg-lblack {
     background-color: #212121;
@@ -52,7 +55,8 @@ body {
     justify-content: center;
     align-items: center;
     transition: 0.2s;
-
+    cursor: default;
+    
 }
 
 .wordIn {
@@ -86,13 +90,9 @@ body {
     transition: 0.2s;
 }
 
-
-
 .key:active {
     scale: 1.2;
 }
-
-
 
 .cross {
     color: rgb(255, 65, 65);
@@ -108,7 +108,6 @@ body {
     border: none;
 
 }
-
 
 .enter-green {
     background-color: rgb(83, 141, 78);
@@ -177,14 +176,9 @@ body {
     scale: 1.1;
 }
 
-
-
-.homeBtn {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+.home {
+    position:fixed
 }
-
 
 .box-big-small {
     animation: box-big-small 0.2s ease 0s 1 forwards;
